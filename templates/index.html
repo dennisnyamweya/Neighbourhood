@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+My Hood
+{% endblock title %}
+
+{% block content %}
+    <!-- Main Section -->
+    <div class="container">
+      <h3 class="heading font-weight-light">Here are your neighbours</h3>
+      {% comment %} {{contacts}} {% endcomment %}
+      <hr />
+    </div>
+    <div class="container main-part">
+    {% if hoods %}
+    {% for hood in hoods %}
+    
+{% include 'partials/_card.html' %}
+
+
+    {% endfor %}
+    {% else %}
+
+    <p class="d-block font-weight-light my-2 heading">You have not saved any hoods yet!</p>
+    {% endif %}
+    </div>
+
+    <!-- Main Section ends-->
+{% endblock content %}

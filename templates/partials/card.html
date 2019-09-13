@@ -1,0 +1,23 @@
+    {% load static %}
+          <div class="card my-2 mx-2 boy-card">
+        <img src="{% if hood.image %}
+        {{business.image.url}}
+        {% else %}
+        {% static 'images/boy.jpeg' %}
+        {% endif %}" class="img-fluid" />
+        <div class="card-header">
+          <a href="{% url 'biz' business.id %}" class="text-black header-link"> {{business.name}}</a
+          >
+        </div>
+        <div class="card-body pb-0">
+          <p>
+            <i class="fas fa-envelope"></i>
+            <a href="location:{{business.email}}">&nbsp;&nbsp;&nbsp;&nbsp;Email{{business.email}}</a>
+          </p>
+          <p>
+            <i class="fas fa-search-location"></i>
+            <a href="{{business.location}}">Location {{business.location}}</a>
+          </p>
+        </div>
+      </div>
+      <!-- Card for details ends -->
