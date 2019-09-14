@@ -4,7 +4,7 @@
 
 #### By **Denis Nyamweya**
 
-## The Web Application Screengrabs.
+## The Web Application 
 
 * User Login Page
 
