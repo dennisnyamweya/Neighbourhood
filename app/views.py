@@ -35,7 +35,7 @@ class HoodDetailView(LoginRequiredMixin,DetailView):
 def search(request):
     if request.GET:
         search_term = request.GET['search_term']
-        search_results = Contact.objects.filter(
+        search_results = Hood.objects.filter(
             Q(name__icontains=search_term)|
             Q(location__icontains=search_term)|
             Q(count__icontains=search_term)
@@ -47,14 +47,16 @@ def search(request):
         return render(request,'search.html',context)
     else:
         return redirect('home')
-
-
-class BusinessDetailView(DetailView):
-    template_name = 'biz_detail.html'
+def business(request):
+    context = {
+        'businesses':Business.objects.all()
+    }
+    return render(request,'business.html',context)
+   
+class BusinessDetailView(LoginRequiredMixin,DetailView):
+    template_name = 'business_detail.html'
     model = Business
-    context_object_name = 'business'
-    success_url =reverse_lazy( '/')
-    
+    context_object_name = 'business' 
  
 class SignUpView(CreateView):
     form_class = UserCreationForm

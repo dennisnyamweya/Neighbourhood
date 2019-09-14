@@ -1,12 +1,12 @@
     {% load static %}
           <div class="card my-2 mx-2 boy-card">
-        <img src="{% if hood.image %}
+        <img src="{% if business.image %}
         {{business.image.url}}
         {% else %}
         {% static 'images/boy.jpeg' %}
         {% endif %}" class="img-fluid" />
         <div class="card-header">
-          <a href="{% url 'biz' business.id %}" class="text-black header-link"> {{business.name}}</a
+          <a href="{% url 'business_detail' business.id %}" class="text-black header-link"> {{business.name}}</a
           >
         </div>
         <div class="card-body pb-0">
@@ -16,7 +16,11 @@
           </p>
           <p>
             <i class="fas fa-search-location"></i>
-            <a href="{{business.location}}">Location {{business.location}}</a>
+            Location {{business.location}}
+          </p>
+          <p>
+            <i class="fa fa-phone"></i>
+            <a href="{{business.phone}}">Phone {{business.phone}}</a>
           </p>
         </div>
       </div>

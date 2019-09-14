@@ -19,6 +19,7 @@ class Business(models.Model):
     email = models.EmailField(max_length=100)
     location = models.CharField(max_length=100,default='location')
     image = models.ImageField(upload_to='images/',blank=True)
+    phone = models.CharField(max_length=20,default='phone number')
 
     def __str__(self):
         return self.name

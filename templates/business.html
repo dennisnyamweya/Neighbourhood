@@ -1,27 +1,26 @@
 {% extends 'base.html' %}
 {% load static %}
 {% block title %}
-Businesses
+My Hood Businesses
 {% endblock title %}
 
 {% block content %}
     <!-- Main Section -->
     <div class="container">
-      <h3 class="heading font-weight-light">Here are your businesses</h3>
-      {% comment %} {{contacts}} {% endcomment %}
+      <h3 class="heading font-weight-light">Here are your neighbourhood Businesses</h3>
       <hr />
     </div>
     <div class="container main-part">
     {% if businesses %}
-    {% for business in businesses %}
+    {% for business in businesses  %}
     
-{% include 'partials/_card.html' %}
+{% include 'partials/card.html' %}
 
 
     {% endfor %}
     {% else %}
 
-    <p class="d-block font-weight-light my-2 heading">You have not saved any hoods yet!</p>
+    <p class="d-block font-weight-light my-2 heading">No business available yet!</p>
     {% endif %}
     </div>
 
