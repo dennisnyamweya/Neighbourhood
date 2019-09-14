@@ -50,7 +50,7 @@ There are no issues that have not yet been resolved and incase of a bug  let use
 ## Technologies Used
 * CSS(Bootstrap) for styling.
 * HTML for webpage design.
-*
+* Crispy forms
 * Python3.6.
 * Django 2.0
 
