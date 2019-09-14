@@ -16,7 +16,7 @@
 
 * The neighbourhood page
 
-![Biz In The Hood](static/images/4.png)
+![Business In The Hood](static/images/4.png)
 
 * Business page | Business and contacts
 
