@@ -26,7 +26,7 @@
 This is a simple Web Application that showcases different neighborhoods.
 
 ## Setup/Installation Requirements
-* Clone Project to your machine git clone `git clone`
+* git clone https://github.com/dennisnyamweya/Neighbourhood.git
 * cd 
 * Prepare a virtual environment
 * Activate a virtual environment on terminal: `source virtual/bin/activate`
