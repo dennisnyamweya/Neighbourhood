@@ -54,7 +54,7 @@ There are no issues that have not yet been resolved and incase of a bug  let use
 * Django 2.0
 
 ## Support and contact details
- If you run into any issues or have questions, ideas or concerns.Contact me or make a contribution to the code.You can access me via my email denisnyamweya813@gmail.com.
+ If you run into any issues or have questions, ideas or concerns.Contact me or make a contribution to the code.You can access me via my email denisnyamweya813@gmail.com.Share with me.
 ### License and Copyright details
 * The MIT License [MIT](LICENSE)
 * Copyright (c) 2019 **Denis Nyamweya**
