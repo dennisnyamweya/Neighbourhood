@@ -27,7 +27,7 @@ This is a simple Web Application that showcases different neighborhoods.
 
 ## Setup/Installation Requirements
 * git clone https://github.com/dennisnyamweya/Neighbourhood.git
-* cd 
+* cd  neighbourhood
 * Prepare a virtual environment
 * Activate a virtual environment on terminal: `source virtual/bin/activate`
 * Install all the requirements found in requirements file. 'pip install -r requirements.txt'
