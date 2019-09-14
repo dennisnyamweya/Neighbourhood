@@ -1,26 +1,32 @@
-# La Casa De Papel
+# The Hood
 
-#### This is a simple Web Application that showcases different neighborhoods.
+ A web application that allows you to be in the loop about everything happening in your neighborhood.
 
 #### By **Denis Nyamweya**
 
 ## The Web Application Screengrabs.
 
-* Home Page
-
-![Home Page](static/media/home.png)
-
-* Biz In The Hood Page
-
-![Biz In The Hood](static/media/biz.png)
-
-* User Registeration | Sign Up Page
-
-![User Sign Up](static/media/register.png)
-
 * User Login Page
 
-![User Login](static/media/login.png)
+![User Login](static/images/1.png)
+
+* Home Page
+
+![Home Page](static/images/3.png)
+
+* The neighbourhood page
+
+![Biz In The Hood](static/images/4.png)
+
+* Business page | Business and contacts
+
+![User Sign Up](static/images/2.png)
+
+* User Signup Page
+
+![User Logout](static/images/5.png)
+
+* User Logout Page
 
 ## Description
 This is a simple Web Application that showcases different neighborhoods.
