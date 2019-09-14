@@ -49,10 +49,11 @@ There are no issues that have not yet been resolved and incase of a bug  let use
 
 ## Technologies Used
 * CSS(Bootstrap) for styling.
-* HTML for webpage design.
+
 * Crispy forms
 * Python3.6.
 * Django 2.0
+* HTML for webpage design.
 
 ## Support and contact details
  If you run into any issues or have questions, ideas or concerns.Contact me or make a contribution to the code.You can access me via my email denisnyamweya813@gmail.com.Share with me.
